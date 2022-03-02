@@ -11,5 +11,9 @@ f = open("customers.txt")
 
 for l in f:    # ---> reads line by line
     print(l)
+    
+f.close()
+
+
 
 
